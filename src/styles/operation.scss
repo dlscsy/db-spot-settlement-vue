@@ -1,0 +1,26 @@
+/* 按钮操作区组件的样式 */
+
+#app {
+  .operation-btn-container {
+    padding: 0.5rem 0.625rem;
+    border-top: 1px solid $divisionBorderColor;
+    .el-button {
+      background: $buttonBg;
+      border: 1px solid $buttonBorderColor;
+      span > svg {
+        margin-right: 0.5rem;
+      }
+      i {
+        margin-right: 0.2rem;
+      }
+      &:hover {
+        background: $buttonHover;
+        border: 1px solid $buttonHover;
+      }
+      &:active {
+        background: $buttonBg;
+        border-color: $buttonBorderColor;
+      }
+    }
+  }
+}

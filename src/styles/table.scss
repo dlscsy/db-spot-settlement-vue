@@ -1,0 +1,95 @@
+/* 表格的样式 */
+
+#app {
+  .base-table-container {
+    .base-table {
+      width: 100%;
+    }
+    .el-checkbox__input.is-checked {
+      .el-checkbox__inner {
+        background-color: $checkboxBg;
+        border-color: $checkboxBorderColor;
+      }
+    }
+    .el-checkbox__input.is-indeterminate {
+      .el-checkbox__inner {
+        background-color: $checkboxBg;
+        border-color: $checkboxBorderColor;
+      }
+    }
+    .el-checkbox__input {
+      .el-checkbox__inner:hover {
+        border-color: $checkboxBorderColor;
+      }
+    }
+    .el-checkbox__input.is-focus {
+      .el-checkbox__inner {
+        border-color: $checkboxBorderColor;
+      }
+    }
+    .el-checkbox__input.is-indeterminate {
+      .el-checkbox__inner {
+        background-color: $checkboxBg;
+        border-color: $checkboxBorderColor;
+      }
+    }
+    // .el-table__header-wrapper {
+    //   border-bottom: 1px solid #EBEEF5;
+    // }
+    .base-table-pagination {
+      padding: 0.5rem;
+      .number.active {
+        background: $buttonBg !important;
+        &:hover {
+          color: #ffffff !important;
+          cursor: pointer;
+        }
+      }
+      li:hover {
+        color: $buttonBg !important;
+      }
+    }
+    .base-table-operate-column {
+      .el-button--primary {
+        background: $buttonBg;
+        border: 1px solid $buttonBorderColor;
+        span > svg {
+          margin-right: 0.5rem;
+        }
+        &:hover {
+          background: $buttonHover;
+          border: 1px solid $buttonHover;
+        }
+      }
+    }
+    .base-table-operateBtn {
+      color: $buttonBg;
+      height: 0.875rem;
+      width: 0.875rem;
+      &:hover {
+        cursor: pointer;
+        height: 1rem;
+        width: 1rem;
+      }
+    }
+  }
+  .base-table-container.is-single {
+    tbody .el-table__row:hover {
+      cursor: pointer;
+    }
+  }
+  //解决表格不对齐问题
+  .el-table th.gutter {
+    display: table-cell !important;
+  }
+  // 可编辑表格单元格双击控制样式
+  .base-form-item-container {
+    display: none;
+  }
+  .base-table-cell-dbl-click .base-form-item-container {
+    display: block;
+  }
+  .base-table-cell-dbl-click .base-form-item-container + span {
+    display: none;
+  }
+}

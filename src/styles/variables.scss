@@ -1,0 +1,93 @@
+/* 全局样式变量 */
+
+// 基础颜色
+$blue: #324157;
+$light-blue: #3a71a8;
+$red: #c03639;
+$pink: #e65d6e;
+$green: #30b08f;
+$tiffany: #4ab7bd;
+$yellow: #fec171;
+$panGreen: #30b08f;
+
+// 导航菜单
+$sideBarWidth: 15rem;
+$menuBg: #e0edf7;
+$menuText: #01367a;
+$menuBorderColor: #c5d3ec;
+$menuActiveBg: #829cd2; 
+$menuActiveText: #0c1f8c; 
+$menuHoverBg: #5a7ca8;
+$toggleSiderMenuBtnHoverBg: #c5d3ec;
+
+// TAB标签页
+$tabsBg: #ffffff;
+$tabsDefaultBg: #ffffff;
+$tabsDefaultBorderColor: #d8dce5;
+$tabsDefaultText: #01367a;
+$tabsActiveBg: #01367a;
+$tabsActiveBorderColor: #01367a;
+$tabsActiveText: #ffffff;
+$tabsHover: #5a7ca8;
+$tabsHoverText: #ffffff;
+
+// 其他变量
+$HORIZONTAL: horizontal;
+$VERTICAL: vertical;
+$NOWRAP: nowrap;
+$WRAP: wrap;
+$STRETCH: stretch;
+
+// 操作按钮
+$buttonBg: #01367a;
+$buttonHover: #5a7ca8;
+$buttonBorderColor: #01367a;
+
+// 条件区域组件
+$toggleBtnHoverBg: #f9fafc;
+
+// 区域间
+$divisionBorderColor: #eff2fb;
+
+// 表格
+$checkboxBg: #01367a;
+$checkboxBorderColor: #01367a;
+
+// 表单对话框
+$fmodalBg: #01367a;
+$fmodalTitleColor: #ffffff;
+$fmodalBodyBg: #ffffff;
+$fmodalFooterBg: #ffffff;
+$fmodalFooterBorderColor: #c5d3ec;
+
+:export {
+  sideBarWidth: $sideBarWidth;
+  menuBg: $menuBg;
+  menuText: $menuText;
+  menuBorderColor: $menuBorderColor;
+  menuActiveBg: $menuActiveBg;
+  menuActiveText: $menuActiveText;
+  menuHoverBg: $menuHoverBg;
+  toggleSiderMenuBtnHoverBg: $toggleSiderMenuBtnHoverBg;
+  tabsBg: $tabsBg;
+  tabsDefaultBg: $tabsDefaultBg;
+  tabsDefaultBorderColor: $tabsDefaultBorderColor;
+  tabsDefaultText: $tabsDefaultText;
+  tabsActiveBg: $tabsActiveBg;
+  tabsActiveBorderColor: $tabsActiveBorderColor;
+  tabsActiveText: $tabsActiveText;
+  tabsHover: $tabsHover;
+  tabsHoverText: $tabsHoverText;
+  buttonBg: $buttonBg;
+  buttonHover: $buttonHover;
+  buttonBorderColor: $buttonBorderColor;
+  toggleBtnHoverBg: $toggleBtnHoverBg;
+  divisionBorderColor: $divisionBorderColor;
+  checkboxBg: $checkboxBg;
+  checkboxBorderColor: $checkboxBorderColor;
+  fmodalBg: $fmodalBg;
+  fmodalTitleColor: $fmodalTitleColor;
+  fmodalBodyBg: $fmodalBodyBg;
+  fmodalFooterBg: $fmodalFooterBg;
+  fmodalFooterBorderColor: $fmodalFooterBorderColor;
+}

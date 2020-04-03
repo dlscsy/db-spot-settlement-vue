@@ -1,0 +1,31 @@
+/* 样式的入口文件 */
+
+@import './variables.scss';
+@import './mixin.scss';
+@import './sidermenu.scss';
+@import './transition.scss';
+@import './condition.scss';
+@import './operation.scss';
+@import './fmodal.scss';
+@import './table.scss';
+// @import './element-ui.scss';
+// @import './btn.scss';
+
+body {
+  height: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB,
+    Microsoft YaHei, Arial, sans-serif;
+  font-size: 16px;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+#app {
+  height: 100%;
+}

@@ -1,0 +1,12 @@
+<!-- 系统页面入口 -->
+<template>
+  <div id="app">
+    <router-view />
+  </div>
+</template>
+
+<script>
+export default {
+  name: "app"
+};
+</script>
