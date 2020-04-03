@@ -14,7 +14,7 @@ export default {
 };
 </script>
 
-<style lang="scss111" scoped>
+<style lang="scss" scoped>
 .assist-empty-router-view-container {
   min-height: calc(100vh - 7.25rem);
   width: 100%;
