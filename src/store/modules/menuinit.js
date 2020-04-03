@@ -102,6 +102,27 @@ export const asyncRoutes = [
     ]
   },
   {
+    menuId: "ZXSB-R0",
+    path: "/nationalreport",
+    component: "",
+    name: "中心上报",
+    meta: {
+      title: "中心上报",
+      icon: "report"
+    },
+    children: [
+      {
+        menuId: "ZXSB-R0-1",
+        path: "nationalreport",
+        component: "",
+        name: "中心上报",
+        meta: {
+          title: "中心上报"
+        }
+      }
+    ]
+  },
+  {
     menuId: "SYSTEM-LOG",
     path: "/system-log",
     component: "",

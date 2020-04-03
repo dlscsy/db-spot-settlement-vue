@@ -146,6 +146,27 @@ export default new Router({
       ]
     },
     {
+      path: "/nationalreport",
+      component: TheMainPage,
+      name: "中心上报",
+      // redirect: "noRedirect",
+      meta: {
+        title: "中心上报",
+        icon: "report"
+      },
+      children: [
+        {
+          path: "nationalreport",
+          component: () =>
+              import("views/spot/nationalreport/NationalReport"),
+          name: "中心上报",
+          meta: {
+            title: "中心上报"
+          }
+        }
+      ]
+    },
+    {
       path: "/system-log",
       component: TheMainPage,
       name: "系统日志",

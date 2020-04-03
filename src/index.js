@@ -18,6 +18,10 @@ import "./icons";
 
 // 阻止启动生产消息，常用作指令
 Vue.config.productionTip = false;
+//引入echart
+import echarts from 'echarts'
+//将echarts引入到vue的原型中
+Vue.prototype.$echarts = echarts
 
 Vue.use(ElementUI, {
   size: Cookies.get("size") || "medium"
