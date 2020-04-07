@@ -33,6 +33,27 @@ export default new Router({
       ]
     },
     {
+      path: "/user",
+      component: TheMainPage,
+      name: "demo",
+      redirect: "noRedirect",
+      meta: {
+        title: "demo",
+        icon: "report"
+      },
+      children: [
+        {
+          path: "user-demo",
+          component: () =>
+              import("views/spot/usermanager/UserManager"),
+          name: "用户管理",
+          meta: {
+            title: "用户管理"
+          }
+        }
+      ]
+    },
+    {
       path: "/servicemgt",
       component: TheMainPage,
       name: "需求侧管理",
@@ -66,8 +87,8 @@ export default new Router({
               path: "grid-energy-saving-project-gather",
               component: () =>
                 import(
-                  "views/scptp-report/servicemgt/client-side/ClientSideSummary"
-                ),
+              "views/scptp-report/servicemgt/client-side/ClientSideSummary"
+),
               name: "电网节能项目汇总",
               meta: {
                 title: "电网节能项目汇总",

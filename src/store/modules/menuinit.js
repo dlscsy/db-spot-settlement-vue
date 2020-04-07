@@ -1,5 +1,26 @@
 export const asyncRoutes = [
   {
+    menuId: "DEMO-R0",
+    path: "/user",
+    component: "",
+    name: "demo",
+    meta: {
+      title: "demo",
+      icon: "report"
+    },
+    children: [
+      {
+        menuId: "DEMO-R0-1",
+        path: "user-demo",
+        component: "",
+        name: "用户管理",
+        meta: {
+          title: "用户管理"
+        }
+      }
+    ]
+  },
+  {
     menuId: "XQC-R0",
     path: "/servicemgt",
     component: "",
