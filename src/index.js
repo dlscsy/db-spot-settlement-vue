@@ -23,6 +23,7 @@ import echarts from 'echarts'
 //将echarts引入到vue的原型中
 Vue.prototype.$echarts = echarts
 
+
 Vue.use(ElementUI, {
   size: Cookies.get("size") || "medium"
 });
